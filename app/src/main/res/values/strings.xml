@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="addition">加法</string>
+    <string name="subtraction">减法</string>
+    <string name="multiplication">乘法</string>
+    <string name="division">除法</string>
+    <string name="input_hint_first">请输入第一个数</string>
+    <string name="input_hint_second">请输入第二个数</string>
+    <string name="calculate">计算</string>
+    <string name="result_prefix">结果: </string>
+    <string name="invalid_input">输入无效</string>
+    <string name="divide_by_zero">除数不能为零</string>
+    <string name="title_activity_add">加法计算器</string>
+    <string name="title_activity_sub">减法计算器</string>
+    <string name="title_activity_mul">乘法计算器</string>
+    <string name="title_activity_div">除法计算器</string>
+    <string name="select_operation">请选择运算类型</string>
+</resources>
