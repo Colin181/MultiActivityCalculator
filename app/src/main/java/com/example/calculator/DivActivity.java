@@ -32,7 +32,7 @@ public class DivActivity extends AppCompatActivity {
                 double num2 = Double.parseDouble(s2);
                 if (num2 == 0) { result.setText(getString(R.string.divide_by_zero)); return; }
                 double res = Double.parseDouble(s1) / num2;
-                result.setText(getString(R.string.result_prefix) + res);
+                result.setText(String.valueOf(res));
             } catch (NumberFormatException e) { result.setText(getString(R.string.invalid_input)); }
         });
     }
@@ -43,3 +43,4 @@ public class DivActivity extends AppCompatActivity {
     @Override protected void onStop() { super.onStop(); Log.d(TAG, "onStop called"); }
     @Override protected void onDestroy() { super.onDestroy(); Log.d(TAG, "onDestroy called"); }
 }
+

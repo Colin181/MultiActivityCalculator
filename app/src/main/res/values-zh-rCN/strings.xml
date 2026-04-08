@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">¼ÆËãÆ÷</string>
-    <string name="addition">¼Ó·¨</string>
-    <string name="subtraction">¼õ·¨</string>
-    <string name="multiplication">³Ë·¨</string>
-    <string name="division">³ý·¨</string>
-    <string name="input_hint_first">ÇëÊäÈëµÚÒ»¸öÊý</string>
-    <string name="input_hint_second">ÇëÊäÈëµÚ¶þ¸öÊý</string>
-    <string name="calculate">¼ÆËã</string>
-    <string name="result_prefix">½á¹û: </string>
-    <string name="invalid_input">ÊäÈëÎÞÐ§</string>
-    <string name="divide_by_zero">³ýÊý²»ÄÜÎªÁã</string>
-    <string name="title_activity_add">¼Ó·¨¼ÆËãÆ÷</string>
-    <string name="title_activity_sub">¼õ·¨¼ÆËãÆ÷</string>
-    <string name="title_activity_mul">³Ë·¨¼ÆËãÆ÷</string>
-    <string name="title_activity_div">³ý·¨¼ÆËãÆ÷</string>
-    <string name="select_operation">ÇëÑ¡ÔñÔËËãÀàÐÍ</string>
+    <string name="app_name">è®¡ç®—å™¨</string>
+    <string name="addition">åŠ æ³•</string>
+    <string name="subtraction">å‡æ³•</string>
+    <string name="multiplication">ä¹˜æ³•</string>
+    <string name="division">é™¤æ³•</string>
+    <string name="input_hint_first">è¯·è¾“å…¥ç¬¬ä¸€ä¸ªæ•°</string>
+    <string name="input_hint_second">è¯·è¾“å…¥ç¬¬äºŒä¸ªæ•°</string>
+    <string name="calculate">è®¡ç®—</string>
+    <string name="result_prefix">ç»“æžœ: </string>
+    <string name="invalid_input">è¾“å…¥æ— æ•ˆ</string>
+    <string name="divide_by_zero">é™¤æ•°ä¸èƒ½ä¸ºé›¶</string>
+    <string name="title_activity_add">åŠ æ³•è®¡ç®—å™¨</string>
+    <string name="title_activity_sub">å‡æ³•è®¡ç®—å™¨</string>
+    <string name="title_activity_mul">ä¹˜æ³•è®¡ç®—å™¨</string>
+    <string name="title_activity_div">é™¤æ³•è®¡ç®—å™¨</string>
+    <string name="select_operation">è¯·é€‰æ‹©è¿ç®—ç±»åž‹</string>
 </resources>

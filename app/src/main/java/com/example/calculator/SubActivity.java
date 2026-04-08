@@ -30,7 +30,7 @@ public class SubActivity extends AppCompatActivity {
             if (s1.isEmpty() || s2.isEmpty()) { result.setText(getString(R.string.invalid_input)); return; }
             try {
                 double res = Double.parseDouble(s1) - Double.parseDouble(s2);
-                result.setText(getString(R.string.result_prefix) + res);
+                result.setText(String.valueOf(res));
             } catch (NumberFormatException e) { result.setText(getString(R.string.invalid_input)); }
         });
     }
@@ -41,3 +41,4 @@ public class SubActivity extends AppCompatActivity {
     @Override protected void onStop() { super.onStop(); Log.d(TAG, "onStop called"); }
     @Override protected void onDestroy() { super.onDestroy(); Log.d(TAG, "onDestroy called"); }
 }
+
