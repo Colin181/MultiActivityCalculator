@@ -16,4 +16,5 @@
     <string name="title_activity_mul">Multiplication Calculator</string>
     <string name="title_activity_div">Division Calculator</string>
     <string name="select_operation">Select operation</string>
+    <string name="equal_sign">=</string>
 </resources>

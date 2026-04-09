@@ -9,7 +9,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -18,15 +19,19 @@
 
         <activity android:name=".AddActivity"
             android:label="@string/title_activity_add"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".SubActivity"
             android:label="@string/title_activity_sub"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".MulActivity"
             android:label="@string/title_activity_mul"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".DivActivity"
             android:label="@string/title_activity_div"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
 
     </application>

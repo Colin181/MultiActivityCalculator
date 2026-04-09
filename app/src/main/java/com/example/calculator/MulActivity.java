@@ -29,7 +29,7 @@ public class MulActivity extends AppCompatActivity {
         final Button button = findViewById(R.id.Button);
         final TextView result = findViewById(R.id.Result);
         final TextView symbol = findViewById(R.id.OperatorSymbol);
-        symbol.setText("*");
+        symbol.setText("×");
 
         button.setOnClickListener(v -> {
             String s1 = input1.getText().toString();
