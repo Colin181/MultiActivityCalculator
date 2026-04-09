@@ -24,23 +24,23 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="40dp" />
 
-        <!-- 第一行：输入框1 运算符 输入框2 -->
+        <!-- 横向：输入框1 运算符 输入框2 ＝ 结果 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
-            android:layout_marginBottom="24dp">
+            android:layout_marginBottom="32dp">
 
             <EditText
                 android:id="@+id/Input1"
                 android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="3"
+                android:layout_height="44dp"
+                android:layout_weight="2"
                 android:hint="@string/input_hint_first"
                 android:inputType="numberDecimal|numberSigned"
-                android:textSize="16sp"
-                android:padding="8dp"
+                android:textSize="14sp"
+                android:padding="6dp"
                 android:background="@drawable/edit_text_bg"
                 android:gravity="center" />
 
@@ -48,8 +48,8 @@
                 android:id="@+id/OperatorSymbol"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="26sp"
+                android:layout_weight="0.6"
+                android:textSize="22sp"
                 android:textStyle="bold"
                 android:textColor="#4CAF50"
                 android:gravity="center" />
@@ -57,42 +57,35 @@
             <EditText
                 android:id="@+id/Input2"
                 android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="3"
+                android:layout_height="44dp"
+                android:layout_weight="2"
                 android:hint="@string/input_hint_second"
                 android:inputType="numberDecimal|numberSigned"
-                android:textSize="16sp"
-                android:padding="8dp"
+                android:textSize="14sp"
+                android:padding="6dp"
                 android:background="@drawable/edit_text_bg"
                 android:gravity="center" />
-        </LinearLayout>
-
-        <!-- 第二行：= 结果 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical|end"
-            android:layout_marginBottom="32dp">
 
             <TextView
+                android:id="@+id/EqualSign"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/equal_sign"
-                android:textSize="22sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#666666" />
+                android:textColor="#666666"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp" />
 
             <TextView
                 android:id="@+id/Result"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="20sp"
+                android:layout_weight="2.5"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="#333333"
-                android:gravity="center"
-                android:paddingStart="8dp" />
+                android:gravity="center" />
         </LinearLayout>
 
         <Button
