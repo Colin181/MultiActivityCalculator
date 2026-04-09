@@ -5,8 +5,8 @@
     <string name="subtraction">减法</string>
     <string name="multiplication">乘法</string>
     <string name="division">除法</string>
-    <string name="input_hint_first">请输入第一个数</string>
-    <string name="input_hint_second">请输入第二个数</string>
+    <string name="input_hint_first">输入1</string>
+    <string name="input_hint_second">输入2</string>
     <string name="calculate">计算</string>
     <string name="result_prefix">结果: </string>
     <string name="invalid_input">输入无效</string>
