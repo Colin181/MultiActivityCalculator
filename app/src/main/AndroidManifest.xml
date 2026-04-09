@@ -16,10 +16,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".AddActivity" android:label="@string/title_activity_add" />
-        <activity android:name=".SubActivity" android:label="@string/title_activity_sub" />
-        <activity android:name=".MulActivity" android:label="@string/title_activity_mul" />
-        <activity android:name=".DivActivity" android:label="@string/title_activity_div" />
+        <activity android:name=".AddActivity"
+            android:label="@string/title_activity_add"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".SubActivity"
+            android:label="@string/title_activity_sub"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".MulActivity"
+            android:label="@string/title_activity_mul"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".DivActivity"
+            android:label="@string/title_activity_div"
+            android:windowSoftInputMode="adjustResize" />
 
     </application>
 </manifest>
