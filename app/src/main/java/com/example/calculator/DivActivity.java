@@ -15,7 +15,8 @@ public class DivActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
         Log.d(TAG, "onCreate called");
-        setTitle(R.string.title_activity_div);
+        final TextView titleText = findViewById(R.id.TitleText);
+        titleText.setText(R.string.title_activity_div);
 
         final EditText input1 = findViewById(R.id.Input1);
         final EditText input2 = findViewById(R.id.Input2);
