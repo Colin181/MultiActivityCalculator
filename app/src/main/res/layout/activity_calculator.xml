@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="24dp"
-        android:fitsSystemWindows="true">
+        android:paddingTop="8dp">
 
         <TextView
             android:id="@+id/TitleText"
@@ -20,7 +20,7 @@
             android:textStyle="bold"
             android:textColor="#333333"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="40dp" />
 
         <!-- 横向：输入框1 + 运算符 + 输入框2 + = + 结果 -->
