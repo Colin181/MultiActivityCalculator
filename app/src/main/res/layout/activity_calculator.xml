@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
+    android:fitsSystemWindows="true"
     android:gravity="top|center_horizontal"
     android:background="#FAFAFA">
 
@@ -14,7 +15,7 @@
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#333333"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
         android:layout_marginBottom="40dp" />
 
     <!-- 输入区：第一个数 -->
